@@ -22,14 +22,17 @@ border-top: 22px solid #424242;
 }
 .donationbody span{
 color: red;
+font-size:1.4em;
+font-family: "PrecisionSans_W_Rg","Helvetica Neue",Arial,sans-serif;
 }
 .donationbody{
  padding-left: 10%;
 font-family: serif;
 }
 .donationbody h3{
-color:black;
+color:grey;
 font-size:1.4em;
+font-family: "PrecisionSans_W_Rg","Helvetica Neue",Arial,sans-serif;
 }
 .donationcontent{
     border: 2px solid #d3d3d3;
@@ -59,12 +62,11 @@ width: 25%;
 }
 input[type="button"]{
 display: inline-block;
-padding: 19px 8px;
+padding: 12px 8px;
 color: white;
 text-shadow: 0 1px black;
 cursor: pointer;
 border: 1px solid #00BE1C;
-width: 37%;
 font-size: 24px;
 background: #00BE1B;
 border-radius: 7px;

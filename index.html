@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Donation Webpage For Loktra</title>
+<meta charset="utf-8">
+
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="app.css" rel="stylesheet">
+<script src="jquery-1.12.2.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="app.js"> 	</script> 
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="col-md-12">
+			<div class="col-md-3">
+
+			</div>
+
+				<div class="col-md-6">
+					<div class="contentbody container">
+						<div class="row bodyhead ">
+							<h3 id="value">$1000 still needed for this project</h3>
+							<div class="arrow-down"></div>
+						</div>
+						<div class="row donationcontent">
+							<div class="progress">
+								<progress value="0" max="1000" id="bar"></progress>
+							</div>
+							<div class="row">
+								<div class="donationbody">
+									<h3><span>Only 3 days left</span> to fund this project.</h3>								
+									<h3>
+										Join the <strong>42</strong> other donors who have already supported this project. Every dollar	helps.
+									</h3>
+									<input type="text" id="donateval" name="donation"  placeholder="$50"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="button" id="donate" name="give"  onclick="incr()" value="Give Now"/>
+									
+									<p class="italic">Why give $50?</p>							
+								</div>		
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-12" style="margin-top:20px" >
+							<div class="col-md-5"  >
+								<button id="demo" type="button" class="donationbutton1" onclick="saveFunction()" style="width:100%">
+								Save for later</button>
+							</div>
+							<div class="col-md-2">
+
+							</div>
+							<div class="col-md-5">
+
+								<a href="https://www.facebook.com/dialog/share?
+								app_id=145634995501895
+								&display=popup
+								&href=http://www.loktra.com/
+								&redirect_uri=https://facebook.com"><p class="donationbutton1" >Tell your Friends</p> </a>
+								
+							</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+						
+				</div>
+		</div>
+	</div>
+		
+		
+</body>
+</html>
